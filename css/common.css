@@ -433,8 +433,8 @@ padding: 0 0 20px;
    }
 
    .nav_menu_m_button:hover span:nth-child(2){
-      /* display: none; */
-      visibility: hidden;
+      display: none;
+      /* visibility: hidden; */
    }
 
    .nav_menu_m_button:hover span:last-child{
