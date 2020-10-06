@@ -1,0 +1,1424 @@
+#gnb { position: static;}
+
+/* LNB 스타일 */
+#lnb_mac {padding:8px 0; height: 100px;
+   background-color: rgb(245,245,247,0.6) ;}
+.lnb_menu {display: flex; 
+   width:1120px;
+   margin:0 auto;
+   justify-content: space-between;}
+
+.lnb_menu a {text-align: center;}
+.lnb_menu a:hover {
+   text-decoration: none; color:#2997ff;
+}
+.lnb_menu span:hover{
+   color:#2997ff; text-decoration: none;
+}
+
+.lnb_menu span {
+   display:block;
+   color:rgb(29,29,31);
+   font-family: 'SF Pro KR';
+   font-size: 12px;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 16px;
+}
+
+.lnb_menu_icon_macbookair,
+.lnb_menu_icon_macbookpro13,
+.lnb_menu_icon_macbookpro16,
+.lnb_menu_icon_imac,
+.lnb_menu_icon_imacpro,
+.lnb_menu_icon_macpro,
+.lnb_menu_icon_macmini,
+.lnb_menu_icon_maccomp,
+.lnb_menu_icon_prodisplayxdr,
+.lnb_menu_icon_macacc,
+.lnb_menu_icon_macosx {
+   height: 54px;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   margin:0 auto 4px;
+   display: block;
+}
+
+.lnb_menu_icon_macbookair {
+   width:52px;
+   background-image: url(../mac/img/macbookair.svg);
+   background-size: 52px 54px;
+}
+
+.lnb_menu_icon_macbookpro13 {
+   width: 54px;
+   background-image: url(../mac/img/macbook_pro_13.svg);
+   background-size: 52px 54px;
+}
+
+.lnb_menu_icon_macbookpro16 {
+   width: 60px;
+   background-image: url(../mac/img/macbook_pro_16.svg);
+   background-size: 52px 54px;
+}
+
+.lnb_menu_icon_imac {
+   width: 48px;
+   background-image: url(../mac/img/imac.svg);
+   background-size: 52px 54px;
+}
+
+.lnb_menu_icon_imacpro {
+   width: 48px;
+   background-image: url(../mac/img/imac_pro.svg);
+   background-size: 48px 54px;
+}
+
+.lnb_menu_icon_macpro {
+   width: 37px;
+   background-image: url(../mac/img/mac_pro.svg);
+   background-size: 37px 54px;
+}
+
+.lnb_menu_icon_macmini {
+   width: 28px;
+   background-image: url(../mac/img/macmini.svg);
+   background-size: 28px 54px;
+}
+
+.lnb_menu_icon_maccomp {
+   width: 70px;
+   background-image: url(../mac/img/mac_comp.svg);
+   background-size: 70px 54px;
+}
+
+.lnb_menu_icon_prodisplayxdr {
+   width: 48px;
+   background-image: url(../mac/img/pro_display_xdr.svg);
+   background-size: 48px 54px;
+}
+
+.lnb_menu_icon_macacc {
+   width: 29px;
+   background-image: url(../mac/img/mac_acc.svg);
+   background-size: 29px 54px;
+}
+
+.lnb_menu_icon_macosx {
+   width: 42px;
+   background-image: url(../mac/img/mac_osx.svg);
+   background-size: 42px 54px;
+}
+
+.lnb_menu_span_new{
+   color:rgb(191,72,0);
+   font-family: 'SF Pro KR';
+   font-size: 10px;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 12px;
+}
+
+/* Mac 알림 배너 스타일 */
+#mac_banner p {
+   padding:9px 0; text-align: center; background: rgb(242,242,242);
+}
+
+#mac_banner p span{
+   color:rgb(0,102,204);
+}
+
+/* Hero 섹션 스타일 */
+
+/* Hero iMac 스타일 */
+
+.hero_imac_wrap,
+.hero_macbookair_wrap,
+.hero_macbookpro_wrap {
+   width: 980px; margin:0 auto;
+   display: flex;
+   align-items: center;
+   padding:60px 0;
+}
+.hero_imac_text {
+   width:33.33333%;
+}
+.hero_imac_img{
+   width: 66.66666%;
+}
+.hero_imac_text span{
+   display: block;
+   margin:0 0 4px;
+}
+.hero_imac_text span:first-child{
+  color:rgb(245,99,0);
+}
+
+.h2_subtitle_21 { 
+   font-family: 'SF Pro KR', 'SF Pro Display', serif;
+   font-size:21px;
+   font-weight:600;
+   font-style:normal;
+   line-height:29px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.hero_imac_text h2 {line-height: 60px;}
+.hero_imac_text h3 {font-weight:600; line-height: 35px;}
+
+/* .hero_imac_link_buy{
+   width:86px; height: 36px;
+   display: block;
+   border-radius:18px;
+   background-color: rgb(0,113,227);
+   color:white;
+} */
+
+.hero_imac_link_buy a{
+   padding:8px 16px;
+   color: rgb(255,255,255);
+   background-color: rgb(0,113,227);
+   border-radius: 18px;
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 20px; 
+   -webkit-font-smoothing:antialiased; 
+   text-decoration: none;
+   
+}
+
+.hero_imac_link_more a{
+   color:rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 32px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.hero_imac_link_more span{
+   color: rgb(0,102,204);
+   display:inline-block
+}
+
+
+.hero_imac_link_buy{
+   margin:30px 0;
+}
+
+.hero_imac_img figure{
+   width:726px; height:550px;
+   background-image: url('../mac/img/hero_imac.jpg');
+   background-size: 726px 550px;
+   background-repeat: no-repeat;
+   margin:0 0 0 -14px;
+}
+
+
+/* Hero Macbook Air 스타일 */
+
+.hero_macbookair_img figure{
+   width:983px; height:150px;
+   background-image: url('../mac/img/macbook_air.jpg');
+   background-size: 983px 150px;
+   background-repeat: no-repeat;
+   margin:0 0 0 -409px;
+}
+.margin_left_72{
+   margin-left: 72px;
+}
+
+/* Hero Macbook Pro 스타일 */
+
+.hero_macbookpro_img figure{
+   width:647px; height:232px;
+   background-image: url('../mac/img/macbook_pro.jpg');
+   background-size: 647px 232px;
+   background-repeat: no-repeat;
+   margin:0 0 0 52px;
+}
+
+/* Section Macbook 비교하기 스타일 */
+
+#macbook_comp{}
+
+.macbook_comp_wrap {
+   width:1380px; 
+   margin:0 auto 30px; 
+   padding: 114px 0 80px 0;
+   background: rgb(242,242,242);
+}
+
+.macbook_comp_title{
+   margin:0 0 60px 0;
+   text-align: center;
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:64px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 75px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.macbook_comp_link{
+   text-align: center;
+   margin: 0 0 75px; 
+}
+
+.macbook_comp_link a{
+   color:rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:20px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 31px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.macbook_comp_link span{
+   color:rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:20px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 31px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.macbook_comp_madel_wrap{
+   display: flex;
+   width: 980px;
+   margin: 0 auto;
+   align-items: flex-end;
+}
+
+.macbook_comp_madel {
+   width: 33.33333%; 
+   padding: 0 20px;
+}
+
+.macbook_comp_model_img_1 {
+   width:286px; height: 168px;
+   background-size: 286px 168px;
+   background: url(../mac/img/macbook_air_.jpg)
+   no-repeat center; 
+   margin: 0 -27px 30px;
+}
+
+.macbook_comp_model_img_2{
+   width:286px; height: 168px;
+   background-size: 286px 168px;
+   background: url(../mac/img/macbook_pro_13.jpg)
+   no-repeat center; 
+   margin: 0 -27px 30px;
+}
+
+.macbook_comp_model_img_3{
+   width:334px; height: 194px;
+   background-size: 334px 194px;
+   background: url(../mac/img/macbook_pro_16.jpg)
+   no-repeat center; 
+   margin: 0 -32px 30px;
+}
+
+.macbook_comp_madel h3{
+   line-height: 31px; margin: 0 0 4px;
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:24px;
+   font-weight:600;
+   font-style: normal;
+   -webkit-font-smoothing:antialiased; 
+}
+
+.macbook_comp_madel p{
+   font-size: 14px;
+   line-height: 22px; margin: 0 0 4px;
+   font-weight:600;
+}
+
+.macbook_comp_model_list{
+   margin: 54px 0 54px 0; 
+}
+
+.macbook_comp_model_list li {
+   color:rgb(29,29,31);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:14px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 22px; 
+   -webkit-font-smoothing:antialiased; 
+   margin:16px 0 0 0;
+}
+
+.macbook_comp_model_link_buy{
+   margin:60px 0 20px; 
+}
+
+.macbook_comp_model_link_buy a{
+   padding:4px 11px;
+   color: rgb(255,255,255);
+   background-color: rgb(0,110,219);
+   border-radius: 12px;
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:12px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 16px; 
+   -webkit-font-smoothing:antialiased; 
+   text-decoration: none;
+   
+}
+
+.macbook_comp_model_link_buy a:hover{
+   background-color: rgb(0,126,252);
+}
+
+.macbook_comp_model_link_more a{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:14px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 22px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.macbook_comp_model_link_more span{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:14px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 22px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.macbook_comp_model_list_sup{
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:10px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 15.7px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+
+/* section macOS 스타일 */
+
+.mac_os {
+   width:1380px; height: 600px;
+   margin:0 auto 30px; 
+   background: url(../mac/img/big_sur.jpg) no-repeat;
+   text-align: center;
+   display: flex;
+   align-items: center;
+}
+.mac_os_text{
+   /* width: 980px; margin: 200px auto; */
+   margin: 0 auto;
+}
+
+.mac_os h2{
+   color:rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:25.5px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 40px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.mac_os h2 span{
+   color:rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:25.5px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 40px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.mac_os h3{
+   color:rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:48px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 57px; 
+   -webkit-font-smoothing:antialiased; 
+   margin: 13px 0 0;
+}
+
+.mac_os_link{
+   margin: 13px 0 0;
+}
+
+.mac_os_link a{
+   color:rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.mac_os_link span{
+   color:rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.macbook_pro_wrap {
+   width:1380px; height: 700px;
+   margin:0 auto 30px; 
+   display: flex;
+}
+
+.macbook_pro_acc {
+   width:50%;
+   padding:60px 0 0;
+   margin:0 15px 0 0;
+   background: url('../mac/img/accessories_tile.jpg') no-repeat center bottom;
+   background-color: rgb(242,242,242);
+   text-align: center;
+}
+
+.macbook_pro_trade_in {
+   width:50%;
+   padding:60px 0 0;
+   margin:0 0 0 15px;
+   background: url('../mac/img/trade_in_mac_tile.jpg') no-repeat center bottom;
+   background-color: rgb(242,242,242);
+   text-align: center;
+}
+
+.macbook_pro_acc h2,
+.macbook_pro_trade_in h2 {
+   margin: 0 0 9px;
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:24px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 31px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.macbook_pro_acc h3,
+.macbook_pro_trade_in h3 {
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:48px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 57px;
+   -webkit-font-smoothing:antialiased; 
+}
+
+.macbook_pro_trade_in p {
+   margin:20px 0 0;
+}
+
+.macbook_pro_acc_link{
+   margin:20px 0 0; 
+}
+
+.macbook_pro_acc_link a{
+   padding:8px 16px;
+   color: rgb(255,255,255);
+   background-color: rgb(0,113,227);
+   border-radius: 18px;
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 20px; 
+   -webkit-font-smoothing:antialiased; 
+   text-decoration: none;
+}
+
+.macbook_pro_acc_link a:hover{
+   background-color: rgb(0,126,252);
+}
+
+.macbook_pro_trade_in_link{
+   margin:13px 0 0; 
+}
+
+.macbook_pro_trade_in_link a{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.macbook_pro_trade_in_link span{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+
+/* 배송, 금융 혜택 */
+
+.delivery_wrap {
+   width:1380px; height: 218px;
+   margin:0 auto ; 
+   display: flex;
+   padding: 52px 0 0;
+   text-align: center;
+}
+
+.delivery_wrap_more {
+   width:50%;
+   padding:0 57px 0;
+   margin:0 14px 30px 28px;
+}
+
+.delivery_wrap_more_img1 {
+   width:40px; height: 44px;
+   background-size: 40px 44px;
+   background: url(../mac/img/icon-delivery.png)
+   no-repeat center; 
+   margin: 0 auto 12px ;
+}
+
+.delivery_wrap_more_img2 {
+   width:532px; height: 44px;
+   background-size: 532px 44px;
+   background: url(../mac/img/icon-finance.svg)
+   no-repeat center; 
+   margin: 0 auto 12px;
+}
+
+.delivery_wrap_more h2 {
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 32px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.delivery_wrap_more p {
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 32px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.delivery_wrap_more_link{
+   margin:4px 0 0; 
+}
+
+.delivery_wrap_more_link a{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 32px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.delivery_wrap_more_link span{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 32px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+/* macOS catalina */
+#macos_catalina { width: 1903px; height: 3811px; padding: 150px 0 0;}
+
+.macos_catalina_title h2{
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:64px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 75px; 
+   -webkit-font-smoothing:antialiased;
+   text-align: center;
+}
+
+.macos_catalina_banner {
+   width:1380px; height: 600px;
+   margin:80px auto 30px; 
+   background: url(../mac/img/catalina.jpg) no-repeat center;
+   background-size: 2560px 600px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+}
+.macos_catalina_banner_text{
+   /* width: 980px; margin: 150px auto; */
+   margin: 0 auto;
+}
+
+.macos_catalina_banner_text h2{
+   color:rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:25.5px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 40px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.macos_catalina_banner_text h2 span{
+   font-weight:400;
+}
+
+.macos_catalina_banner_text h3{
+   color:rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:48px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 57px; 
+   -webkit-font-smoothing:antialiased; 
+   margin: 19px 0 0;
+}
+
+.macos_catalina_banner_text p{
+   color:rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased; 
+   margin: 19px 0 0;
+}
+
+.macos_catalina_banner_link{
+   margin: 13px 0 0;
+}
+
+.macos_catalina_banner_link a{
+   color:rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.macos_catalina_banner_link span{
+   color:rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+/* macOS iCloud */
+
+.mac_os_icloud_wrap {
+   width:1440px; height: 640px;
+   margin:0 auto ; 
+   display: flex;
+}
+
+.mac_os_more {
+   width:50%; height: 610;
+   padding:0 60px 0;
+   margin:0 15px 30px 30px;
+   background: url('../mac/img/macos.jpg') no-repeat center bottom;
+   background-color: rgb(250,250,250);
+   text-align: center;
+}
+
+.mac_os_icloud_more {
+   width:50%; height: 610;
+   padding:0 60px 0;
+   margin:0 30px 30px 15px;
+   background: url('../mac/img/icloud.jpg') no-repeat center bottom;
+   background-color: rgb(250,250,250);
+   text-align: center;
+}
+
+.mac_os_more h2,
+.mac_os_icloud_more h2 {
+   padding: 60px 0 0;
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:48px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 57px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.mac_os_more p,
+.mac_os_icloud_more p {
+   margin:13px 0 0;
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px;
+   -webkit-font-smoothing:antialiased; 
+}
+
+.mac_os_icloud_more_link{
+   margin:13px 0 0; 
+}
+
+.mac_os_icloud_more_link a{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.mac_os_icloud_more_link span{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+/* built_in_apps 스타일*/
+.built_in_apps{
+   width: 1380px; height: 1115;
+   margin: 0 auto; 
+   background-color: rgb(251,251,253);
+}
+
+.built_in_apps_promo{
+   height: 200px;
+   text-align: center;
+}
+
+.built_in_apps_promo h2 {
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:48px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 57px; 
+   -webkit-font-smoothing:antialiased;
+   padding: 75px 0 0;
+}
+
+.built_in_apps_promo p {
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+   padding: 13px 0 0;
+}
+
+.tabnav_wrap{
+   height: 818px;
+   padding: 32px 0 66px;
+}
+
+/* tabnav_items */
+#tabnav_items {
+   height: 155px;
+}
+
+
+
+.tabnav_items_menu {
+   display: flex; 
+   width:782px; height: 121;
+   margin:0 auto;
+   padding: 0 0 34px;
+   justify-content: space-between;
+}
+
+
+.tabnav_items_menu a {text-align: center;}
+.tabnav_items_menu a:hover {
+   text-decoration: none; color:#2997ff;
+}
+.tabnav_items_menu a:active { 
+   text-decoration: none; color:rgb(29,29,31); 
+}
+.tabnav_items_menu span:hover{
+   color:#2997ff; text-decoration: none;
+}
+
+
+.tabnav_items_menu span {
+   display:block;
+   color:rgb(110,110,115);
+   font-family: 'SF Pro KR';
+   font-size: 17px;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 17px;
+}
+
+.tabnav_items_menu_icon_photos,
+.tabnav_items_menu_icon_imovie,
+.tabnav_items_menu_icon_garageband,
+.tabnav_items_menu_icon_pages,
+.tabnav_items_menu_icon_numbers,
+.tabnav_items_menu_icon_keynote,
+.tabnav_items_menu_icon_safari {
+   height: 77px;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   margin:0 auto 4px;
+   display: block;
+}
+
+.tabnav_items_menu_icon_photos {
+   width:48px;
+   background-image: url(../mac/img/nav_icon_photos.jpg);
+   background-size: 48px 77px;
+}
+
+.tabnav_items_menu_icon_imovie {
+   width:47px; 
+   background-image: url(../mac/img/nav_icon_imovie.jpg);
+   background-size: 47px 77px;
+}
+
+.tabnav_items_menu_icon_garageband {
+   width:47px; 
+   background-image: url(../mac/img/nav_icon_garageband.jpg);
+   background-size: 47px 77px;
+}
+
+.tabnav_items_menu_icon_pages {
+   width:47px; 
+   background-image: url(../mac/img/nav_icon_pages.jpg);
+   background-size: 47px 77px;
+}
+
+.tabnav_items_menu_icon_numbers {
+   width:50px; 
+   background-image: url(../mac/img/nav_icon_numbers.jpg);
+   background-size: 50px 77px;
+}
+
+.tabnav_items_menu_icon_keynote {
+   width:40px; 
+   background-image: url(../mac/img/nav_icon_keynote.jpg);
+   background-size: 40px 77px;
+}
+
+.tabnav_items_menu_icon_safari {
+   width:49px; 
+   background-image: url(../mac/img/nav_icon_safari.jpg);
+   background-size: 49px 77px;
+}
+
+
+.tabnav_wrap_text{
+   height: 122px;
+   padding: 0 0 52px;
+   text-align: center;
+}
+
+.tabnav_wrap_text p {
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.tabnav_wrap_text_link{
+   margin:13px 0 0; 
+   padding: 0 0 52px;
+}
+
+.tabnav_wrap_text_link a{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.tabnav_wrap_text_link span{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.tabnav_wrap_img1{
+   width: 1380; height: 490;
+   background: url('../mac/img/bia_hw.png') no-repeat center bottom;
+   background-size: 606px 490px;
+   display: flex;
+   align-items: top;
+}
+
+.tabnav_wrap_img2{
+   width: 556; height: 313;
+   background: url('../mac/img/bia_photos.jpg') no-repeat center bottom;
+   background-size: 556px 313px;
+   margin: 24px auto;
+}
+
+/* gallery_apps 스타일 */
+
+.gallery_apps{
+   width: 1380px; height: 1017;
+   margin: 30 auto 0; 
+   background-color: rgb(251,251,253);
+}
+
+.tabnav_wrap{
+   height: 720px;
+   padding: 32px 0 66px;
+}
+
+/* tabnav_items */
+#tabnav_items {
+   height: 155px;
+}
+
+.gallery_apps_menu {
+   display: flex; 
+   width:685px; height: 121;
+   margin:0 auto;
+   padding: 0 0 34px;
+   justify-content: space-between;
+}
+
+
+.gallery_apps_menu a {text-align: center;}
+.gallery_apps_menu a:hover {
+   text-decoration: none; color:#2997ff;
+}
+.gallery_apps_menu a:active { 
+   text-decoration: none; color:rgb(29,29,31); 
+}
+.gallery_apps_menu span:hover{
+   color:#2997ff; text-decoration: none;
+}
+
+
+.gallery_apps_menu span {
+   display:block;
+   color:rgb(110,110,115);
+   font-family: 'SF Pro KR';
+   font-size: 17px;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 17px;
+}
+
+
+.gallery_apps_menu_icon_logicprox,
+.gallery_apps_menu_icon_mainstage3,
+.gallery_apps_menu_icon_finalcutprox,
+.gallery_apps_menu_icon_motion,
+.gallery_apps_menu_icon_compressor {
+   height: 77px;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   margin:0 auto 4px;
+   display: block;
+}
+
+.gallery_apps_menu_icon_logicprox {
+   width:43px;
+   background-image: url(../mac/img/nav_icon_logicpro.jpg);
+   background-size: 43px 77px;
+}
+
+.gallery_apps_menu_icon_mainstage3 {
+   width:46px; 
+   background-image: url(../mac/img/nav_icon_mainstage.jpg);
+   background-size: 46px 77px;
+}
+
+.gallery_apps_menu_icon_finalcutprox {
+   width:43px; 
+   background-image: url(../mac/img/nav_icon_finalcut.jpg);
+   background-size: 43px 77px;
+}
+
+.gallery_apps_menu_icon_motion {
+   width:45px; 
+   background-image: url(../mac/img/nav_icon_motion.jpg);
+   background-size: 45px 77px;
+}
+
+.gallery_apps_menu_icon_compressor {
+   width:42px; 
+   background-image: url(../mac/img/nav_icon_compressor.jpg);
+   background-size: 42px 77px;
+}
+
+.gallery_apps_text{
+   height: 149px;
+   padding: 0 0 52px;
+   text-align: center;
+}
+
+.gallery_apps_text p {
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.gallery_apps_text_link{
+   margin:13px 0 0; 
+   padding: 0 0 52px;
+}
+
+.gallery_apps_text_link a{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.gallery_apps_text_link span{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.gallery_apps_img1{
+   width: 1380; height: 364;
+   background: url('../mac/img/gallery_hw.png') no-repeat center bottom;
+   background-size: 625px 364px;
+   display: flex;
+   align-items: top;
+}
+
+.gallery_apps_img2{
+   width: 479; height: 300;
+   background: url('../mac/img/pro_logicpro.jpg') no-repeat center bottom;
+   background-size: 479px 300px;
+   margin: 24px auto;
+}
+
+/* Mac App Store 스타일 */
+
+.mac_app_store{
+   width: 1380px; height: 223px;
+   margin: 0 auto;
+   background-color: rgb(251,251,253);
+}
+
+.mac_app_store_more {
+   width: 805px; height: 71px;
+   margin:0 auto 30px;
+   display: flex;
+   align-items: center;
+   padding:60px 0 90px ;
+}
+.mac_app_store_icon {
+   width:15%; height: 71px;
+   background: url('../mac/img/icon_appstore.png') no-repeat center bottom;
+   background-size: 71px 71px;
+}
+.mac_app_store_text{
+   width: 85%;
+}
+
+.mac_app_store_text p{
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.mac_app_store_link a{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.mac_app_store_link span{
+   color: rgb(0,102,204);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:17px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 27px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+
+
+/* mac get more */
+#mac_get_more { 
+   width: 1903px; height: 1915px; 
+   padding: 150px 0 0;
+   margin: 30px 0 30px;
+}
+
+.mac_get_more_title h2{
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:64px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 75px; 
+   -webkit-font-smoothing:antialiased;
+   text-align: center;
+}
+
+/* 아케이드 스타일 */
+
+
+.arcade_wrap {
+   width:1380px; height: 500px;
+   margin:80px auto 30px; 
+   background: url(../mac/img/apple_arcade.jpg) no-repeat;
+   /* text-align: center; */
+   display: flex;
+   align-items: center;
+}
+
+/* .arcade_wrap_text_img{
+   background: url(../mac/img/arcade_logo.png) no-repeat center;
+   background-size: 180px 41px;
+} */
+
+.arcade_wrap_text{
+   /* width: 980px; margin: 200px auto; */
+   width: 575px; height: 171px;
+   margin: 0 0 0 115px;
+}
+
+.arcade_wrap_text h2{
+   height: 41px;
+   background: url(../mac/img/apple_arcade.png) no-repeat center;
+   background-size: 180px 41px;
+}
+
+.arcade_wrap_text h3 {
+   /* margin: 0 auto; */
+   margin: 20px 0 0;
+   color: rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 32px; 
+   -webkit-font-smoothing:antialiased;
+   text-align: center; 
+}
+
+.arcade_wrap_text_link{
+   margin: 13px 0 0;
+   text-align: center;
+
+}
+
+.arcade_wrap_text_link a{
+   color: rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 32px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.arcade_wrap_text_link span{
+   color: rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 32px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+/* education Mac */
+
+.education_wrap {
+   width:1440px; height: 630px;
+   margin:0 auto ; 
+   display: flex;
+}
+
+.education_mac {
+   width:50%; height: 600px;
+   padding:0 60px 0;
+   margin:0 15px 30px 30px;
+   background: url('../mac/img/education.jpg') no-repeat center bottom;
+   background-size: 675px 600px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+}
+
+.higher_education_mac {
+   width:50%; height: 600px;
+   padding:0 60px 0;
+   margin:0 30px 30px 15px;
+   background: url('../mac/img/higher_education.jpg') no-repeat center bottom;
+   text-align: center;
+   display: flex;
+   align-items: center;
+}
+
+.education_mac_text{
+   margin: 0 auto;
+}
+
+.education_mac h2,
+.higher_education_mac h2,
+.business_mac_text h2 {
+   color: rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:48px;
+   font-weight:600;
+   font-style: normal;
+   line-height: 57px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.education_mac p,
+.higher_education_mac p,
+.business_mac_text p {
+   margin: 16.8px 0 0 ;
+   color: rgb(245,245,247);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 32px;
+   -webkit-font-smoothing:antialiased; 
+}
+
+.education_mac_link{
+   margin:13px 0 0; 
+}
+
+.education_mac_link a{
+   color: rgb(41,151,255);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 32px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.education_mac_link span{
+   color: rgb(41,151,255);
+   font-family: 'SF Pro KR', 'SF Pro text', sans-serif;
+   font-size:21px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 32px; 
+   -webkit-font-smoothing:antialiased;
+}
+
+.education_mac_link_more{
+   margin: 6.8px 0 0;
+}
+
+
+/* business Mac 스타일 */
+
+.business_mac {
+   width:1380px; height: 600px;
+   margin:0 auto; 
+   background: url(../mac/img/business.jpg) no-repeat center;
+   background-size: 1380px 600px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+}
+
+.business_mac_text{
+   margin: 0 auto;
+}
+
+
+/* 푸터 부분 스타일 */
+
+.footer_note_mac_wrap { 
+   width:980px; height: 200px;
+   padding: 17px 0 11px; margin: 0 auto;
+   border-bottom: 1px solid rgb(210,210,215);
+}
+
+.footer_note_mac{
+   /* padding:17px 0 11px; */
+   color:rgb(134,134,139);
+}
+
+
+.footer_note_mac_li {     
+   margin: 0; padding: 0 0 0 17px;
+   color:rgb(134,134,139);     
+   font-family: 'SF Pro KR', 'SF Pro text', serif;
+   font-size:12px;
+   font-weight:400;
+   font-style: normal;
+   line-height: 16.8px; 
+   -webkit-font-smoothing:antialiased; 
+}
+
+.footer_note_mac_li li {
+   margin: 0 0 9.6px;
+}
+
+.footer_note_mac a,
+.footer_note_mac_li a{
+   color: rgb(81,81,84);
+}
+
+.footer_navigation{
+   height: 23px;
+   padding: 17px 0 0;
+}
