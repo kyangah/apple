@@ -189,9 +189,21 @@
          margin: 0 0 0 12px;
          }   
       
+         
+/* 태블릿 해상도 */
 
+@media screen and (min-width:768px) and
+(max-width:1068px) {
+   .link_more_wrap {
+      font-size:19px;
+      line-height: 25px;
+      text-align: center;
+      }
+
+}
 
 /* 모바일 해상도 css */
+
 
 @media screen and (max-width:767px) {
 
