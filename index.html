@@ -48,12 +48,11 @@
 
          <nav id="gnb_m">
             <ul class="nav_menu_m">
-               <li class="nav_menu_m_item">
-                  <a href="" class="nav_menu_m_button">
-                     <span></span>
-                     <span></span>
-                     <span></span>
-                  </a>
+                  <li class="nav_menu_m_button"
+                  onclick="gnbOn();">
+                     <span id="nav_menu_m_button_span_1"></span>
+                     <span id="nav_menu_m_button_span_2"></span>
+                     <span id="nav_menu_m_button_span_3"></span>
                </li>
                <li class="nav_menu_m_logo">
                   <a href="index.html"><img src="img/nav_logo.svg"></a>
@@ -62,7 +61,48 @@
                   <a href=""><img src="img/nav_store (1).svg"></a>
                </li>
             </ul>
+
+            <ul class="nav_menu_m_open color_white_245">
+               <div class="nav_menu_m_open_search">
+                  <input type="search" placeholder="&#128269; &nbsp; apple.com 검색">
+               </div>
+            
+               <a href="mac/mac.html"><li class="nav_menu_item">Mac</li></a>
+               <a href="ipad/ipad.html"><li class="nav_menu_item">iPad</li></a>
+               <a href="iPhone/iPhone.html"><li class="nav_menu_m_open_item">iPhone</li></a>
+               <a href="Watch/Watch.html">
+                <li class="nav_menu_item">Watch</li></a>
+               <a href="Music/Music.html"><li class="nav_menu_item">Music</li></a>
+               <a href="support/support.html"><li class="nav_menu_item">고객지원</li></a>
+            </ul>
          </nav>
+
+         <!-- <nav id="gnb_m_open">
+
+            <div class="nav_menu_m_open_button"
+            onclick="gnbOff()">
+                  <span></span>
+                  <span></span>
+            </div>
+
+            <ul class="nav_menu_m_open color_white_245">
+               <div class="nav_menu_m_open_logo"><a href="index.html"><img src="img/nav_logo.svg"></a></div>
+               
+               <div class="nav_menu_m_open_search">
+                  <input type="search" placeholder="&#128269; &nbsp; apple.com 검색">
+               </div>
+
+               <a href="mac/mac.html"><li class="nav_menu_item">Mac</li></a>
+               <a href="ipad/ipad.html"><li class="nav_menu_item">iPad</li></a>
+               <a href="iPhone/iPhone.html"><li class="nav_menu_m_open_item">iPhone</li></a>
+               <a href="Watch/Watch.html">
+                <li class="nav_menu_item">Watch</li></a>
+               <a href="Music/Music.html"><li class="nav_menu_item">Music</li></a>
+               <a href="support/support.html"><li class="nav_menu_item">고객지원</li></a>
+               <a href=""><li class="nav_menu_item"><img src="img/nav_search.svg"></li></a>
+               <a href=""><li class="nav_menu_item"><img src="img/nav_store (1).svg"></li></a>
+            </ul>
+         </nav> -->
    </header>
 
    <main>
@@ -332,5 +372,42 @@
 
    </footer>
 
+   <script>
+
+      var gnbOpenState = 0;
+
+      function gnbOn() {
+
+
+         if (gnbOpenState == 0) {
+            document.getElementById("gnb_m")
+            .style = "height:100%; background:rgba(0,0,0,1);";
+
+            document.getElementById("nav_menu_m_button_span_1")
+            .style = "transform: rotate(45deg); top: 22px;"
+            document.getElementById("nav_menu_m_button_span_2")
+            .style = "visibility: hidden;"
+            document.getElementById("nav_menu_m_button_span_3")
+            .style = "transform: rotate(-45deg); top: 22px;"
+
+            gnbOpenState = 1;
+         }
+         else {
+            document.getElementById("gnb_m")
+            .style = "height:44px; background:rgba(0,0,0,0.8);";
+
+            document.getElementById("nav_menu_m_button_span_1")
+            .style = "transform: rotate(0deg); top: 16px;"
+            document.getElementById("nav_menu_m_button_span_2")
+            .style = "visibility: visible;"
+            document.getElementById("nav_menu_m_button_span_3")
+            .style = "transform: rotate(0deg); top: 28px;"
+
+            gnbOpenState = 0;
+         }
+
+      }
+
+   </script>
 </body>
 </html>
